@@ -51,7 +51,12 @@ To run this code, you need to have the following Python libraries installed:
 3. Install the required dependencies:
    ```python
    pip install pulp matplotlib
+   
 
+4. Run the Cutting Stock Solution:
+
+      ```bash
+     python cutting_stock_solution.py
 
 ### 🧩 Example Problem
 
@@ -71,12 +76,6 @@ Here is an example of the input data used in the problem:
 # Rectangle demands: How many pieces of each rectangle are needed
   ```python
   rectangle_demands = [3, 4, 2, 1, 3, 2, 2, 3, 1]
-
-
-4. Run the Cutting Stock Solution:
-
-      ```bash
-     python cutting_stock_solution.py
 
 
 ## Visual Representation of the Board

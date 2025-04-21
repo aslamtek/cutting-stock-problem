@@ -1,1 +1,45 @@
-<pre><code># 📐 2D Cutting Stock Problem Solver This GitHub repository provides a solution to the **2D Cutting Stock Problem**, leveraging **linear programming (LP)** and a **best-fit heuristic** to efficiently cut smaller rectangles from a larger rectangular board with minimal waste. --- ## 📦 Problem Overview The 2D Cutting Stock Problem involves: - Cutting predefined smaller rectangles from a large board. - Minimizing unused space (waste) on the board. - Fulfilling demand for each type of rectangle. **Applications**: Material optimization in industries like wood, metal, glass, and textiles. --- ## ✨ Features - ✅ Linear Programming using the `PuLP` library. - ✅ Best-Fit Heuristic for efficient rectangle placement. - ✅ Graphical Visualization using `matplotlib`. --- ## 🧩 Problem Definition ### 🔢 Inputs: - Large board dimensions: `length` x `width`. - A list of rectangles defined by their dimensions. - A demand value for each rectangle type. ### 📘 Example Input: ```python board_length = 10 board_width = 8 rectangles = [(5, 5), (5, 2), (7, 3)] rectangle_demands = [1, 1, 1] ``` ### 📤 Output: - Number of each rectangle type used. - Total waste area. - Visual representation of the optimal layout. --- ## ⚙️ Installation ### 🔧 Requirements: ```bash pip install pulp matplotlib ``` --- ## 🚀 Usage 1. Clone the repository: ```bash git clone https://github.com/aslamtek/cutting-stock-problem.git cd cutting-stock-problem ``` 2. Run the script: ```bash python cutting_stock_problem.py ``` 3. (Optional) Save the layout visualization: ```python plt.savefig('cutting-stock-layout.png') ``` --- ## 🖼️ Visualization The script draws the large board and overlays rectangles based on optimal placement. Each rectangle is labeled with its dimensions. To include the visualization in the README after saving it: ```markdown ![Cutting Stock Layout](cutting-stock-layout.png) ``` --- ## 📄 License This project is licensed under the **MIT License**. --- ## 🤝 Contributing Contributions are welcome! Fork the repo, create a branch, and submit a pull request. --- ## 🙌 Acknowledgments - [`PuLP`](https://github.com/coin-or/pulp) - Linear programming in Python. - [`matplotlib`](https://matplotlib.org/) - For plotting the cutting layout. --- </code></pre>
+# 📐 2D Cutting Stock Problem Solver
+
+This project provides a solution to the **2D Cutting Stock Problem**, utilizing **linear programming** and a **best-fit heuristic** to minimize material waste when cutting predefined rectangles from a larger board.
+
+---
+
+### 📄 What This README Contains:
+- **Problem Overview**: Explanation of the **2D Cutting Stock Problem** and the goal of minimizing waste.
+- **Installation Instructions**: Steps to install the required libraries (`PuLP` and `matplotlib`).
+- **Usage Instructions**: How to set up and run the code, including the input format and execution.
+- **License and Contributions**: Details on the open-source license and how to contribute.
+
+---
+
+### 📦 Problem Overview
+
+The **2D Cutting Stock Problem** involves:
+- Cutting various smaller rectangles from a large rectangular board.
+- Minimizing the unused (waste) space on the board.
+- Meeting demand for each rectangle type.
+
+**Real-World Use Cases**: Furniture manufacturing, glass cutting, textile production, and metal fabrication.
+
+---
+
+### ✨ Features
+
+- 🧠 **Linear Programming** using `PuLP`
+- 📐 **Best-Fit Heuristic** for smarter placement
+- 📊 **Graphical Visualization** with `matplotlib`
+
+---
+
+### 🧩 Example Problem
+
+#### Inputs:
+```python
+board_length = 10
+board_width = 8
+rectangles = [(5, 5), (5, 2), (7, 3)]
+rectangle_demands = [1, 1, 1]
+
+###But you can change it what you need###
+
+

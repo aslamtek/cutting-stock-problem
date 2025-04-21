@@ -70,12 +70,12 @@ Here is an example of the input data used in the problem:
     board_width = 15   # Width of the large board
 
 # Types of rectangles (length, width) and their corresponding demand 
-  ```python
-  rectangles = [(12, 14), (9, 7), (15, 10), (8, 6), (13, 10), (11, 9), (17, 12), (6, 9), (18, 11)]
+    ```python
+    rectangles = [(12, 14), (9, 7), (15, 10), (8, 6), (13, 10), (11, 9), (17, 12), (6, 9), (18, 11)]
 
 # Rectangle demands: How many pieces of each rectangle are needed
-  ```python
-  rectangle_demands = [3, 4, 2, 1, 3, 2, 2, 3, 1]
+    ```python
+    rectangle_demands = [3, 4, 2, 1, 3, 2, 2, 3, 1]
 
 
 ## Visual Representation of the Board

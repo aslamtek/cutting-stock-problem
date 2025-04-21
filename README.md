@@ -82,5 +82,6 @@ Here is an example of the input data used in the problem:
 
 Below is an example of the 2D Cutting Stock Problem solution, showing how the rectangles are placed on the board.
 
-![Cutting Stock Solution](Screenshot%202025-04-22%20021427.png)
+![Cutting Stock Solution](images/Screenshot%202025-04-22%20021427.png)
+
 

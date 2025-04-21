@@ -82,6 +82,7 @@ Rectangle demands: How many pieces of each rectangle are needed
 
 Below is an example of the 2D Cutting Stock Problem solution, showing how the rectangles are placed on the board.
 
-![Cutting Stock Solution](2D Cutting stock image.png)
+![Cutting Stock Solution](2D%20Cutting%20stock%20image.png)
+
 
 

@@ -40,6 +40,6 @@ board_width = 8
 rectangles = [(5, 5), (5, 2), (7, 3)]
 rectangle_demands = [1, 1, 1]
 
-###**But you can change it what you need**
+**But you can change it what you need**
 
 
